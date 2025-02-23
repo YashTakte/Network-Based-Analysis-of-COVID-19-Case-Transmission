@@ -6,7 +6,7 @@ This project applies **network-based visual analytics** to analyze **COVID-19 ca
 ## Data Sources
 The dataset used in this project is sourced from:
 - **[GitHub Repository](https://github.com/laxmanbalaraman/Social-Network-Analysis-on-Global-Spread-of-COVID-19)** – Contains raw **source-target** COVID-19 case transmission data.
-- The dataset was **preprocessed** to:
+- The dataset is named **`covid_df.csv`** and was **preprocessed** to:
   - Remove self-loops and duplicate edges.
   - Compute transmission weights based on **case movement intensity**.
   
